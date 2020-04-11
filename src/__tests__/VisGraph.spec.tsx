@@ -1,8 +1,8 @@
 import * as React from "react";
 import { render, fireEvent, screen } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
-import VisGraphProvicer, { VisGraph } from "../../index";
-import { data } from "../data";
+import VisGraphProvicer, { VisGraph } from "./../index";
+import { data } from "./data";
 
 describe("Renders react-vis-hooks", () => {
   test("Render provider", async () => {
