@@ -1,0 +1,14 @@
+__tests__
+coverage
+scripts
+src
+rollup.config.js
+
+# dot files
+.editorconfig
+.eslintrc
+.gitignore
+.lintstagedrc
+.prettierrc
+.travis.yml
+.huskyrc.json
